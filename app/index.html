@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <base href="/">
+
+    <link href="css/app.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body ng-app="slated">
+<ui-view></ui-view>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+<script src="http://unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+<script src="app.module.js"></script>
+<script src="components/movie-search/movie-search.component.js"></script>
+<script src="components/movie-search/movie-search.service.js"></script>
+<script src="directives/movie-autocomplete/movie-autocomplete.directive.js"></script>
+</body>
+</html>

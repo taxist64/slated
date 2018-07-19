@@ -1,0 +1,22 @@
+[
+  {
+    "obj_type": "film",
+    "image_code": "<img src='https://s3.amazonaws.com/p.image.slated.com/film/26/82/164978/1_small.jpg?get=1438695599' alt='The War on Women' class='filmIcon' data-tracked='False' data-id='20/164978' />",
+    "description": "Part investigative journalism, part documentary storytelling, we explore the issue of violence toward women through personal stories from survivors, offenders and advocates.",
+    "year": 2015,
+    "link_code": "<a href='/films/164978/'>The War on Women</a>",
+    "id": 164978,
+    "value": "The War on Women",
+    "label": "The War on Women"
+  },
+  {
+    "obj_type": "film",
+    "image_code": "<img src='https://s3.amazonaws.com/p.image.slated.com/film/53/57/165529/1_small.jpg?get=1457477235' alt='The Wanting Mare' class='filmIcon' data-tracked='False' data-id='20/165529' />",
+    "description": "",
+    "year": 2015,
+    "link_code": "The Wanting Mare",
+    "id": 165529,
+    "value": "The Wanting Mare",
+    "label": "The Wanting Mare"
+  }
+]

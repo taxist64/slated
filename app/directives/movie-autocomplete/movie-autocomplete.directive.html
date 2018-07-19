@@ -1,0 +1,10 @@
+<input type="text" name="movie-search" class="movie-search" ng-model="searchValue" ng-keyup="changeValue($event)">
+<ul class="movie-list" ng-show="showList">
+    <li ng-repeat="movie in movieList">
+        <div ng-click="chooseMovie(movie)" class="movie">
+            <span>{{movie.label}}</span>
+            <span ng-bind-html="toTrustedHTML(movie.image_code)"></span>
+        </div>
+
+    </li>
+</ul>

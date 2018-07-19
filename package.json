@@ -1,0 +1,10 @@
+{
+  "name": "slated",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A starter project for AngularJS",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1 ./app"
+  }
+}
