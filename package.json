@@ -5,6 +5,9 @@
   "description": "A starter project for AngularJS",
   "license": "MIT",
   "scripts": {
-    "start": "http-server -a localhost -p 8000 -c-1 ./app"
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.0"
   }
 }
